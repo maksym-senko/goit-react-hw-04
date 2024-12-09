@@ -10,8 +10,8 @@ function ImageModal({ isOpen, image, onClose }) {
       isOpen={isOpen}
       onRequestClose={onClose}
       contentLabel="Image Modal"
-      className={styles.modalContent} // Updated for clarity
-      overlayClassName={styles.overlay} // Using the correct overlay class
+      className={styles.modalContent}
+      overlayClassName={styles.overlay}
     >
       <img
         src={image.urls.regular}

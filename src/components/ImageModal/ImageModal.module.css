@@ -12,7 +12,6 @@
   }
   
   .modalContent {
-    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,8 +22,7 @@
   
   .image {
     border-radius: 10px;
-    width: 100%;
-    height: 100%;
+    width: 75%;
     object-fit: contain;
     display: block;
   }
